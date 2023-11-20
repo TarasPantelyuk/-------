@@ -1,0 +1,51 @@
+body {
+    background-color: #222222;
+    background-image: url('images/Rectangle 1.png');
+    background-size: cover; /* Або інше значення, таке як 'contain' */
+    background-position: center center;
+    background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
+    color: white;
+}
+
+aside {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    background-color: #000000;
+    padding: 5px;
+    box-sizing: border-box;
+    /*justify-content: center;*/
+}
+aside h2 {
+    color: #fedba5;
+    margin-left: 650px;
+    width: 200px;
+}
+aside button {
+    background-color: #000000;
+    color: #fedba5;
+    border: none;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+    align-self: flex-start;
+}
+body img {
+    width: 70px;
+    margin-left: 530px;
+}
+body h1 {
+    color: #fedba5;
+    margin-top: 160px;
+    text-align: center;
+}
+body p {
+    color: #fedba5;
+    width: 900px;
+    margin-top: 50px;
+    margin-left: 300px;
+    text-align: center;
+    font-size: 20px;
+}
