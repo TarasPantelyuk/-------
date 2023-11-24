@@ -6,4 +6,4 @@ function toggleMenu() {
 function closeMenu() {
     var menu = document.getElementById("navMenu");
     menu.style.display = "none";
-}
+};
