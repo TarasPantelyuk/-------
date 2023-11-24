@@ -34,7 +34,7 @@ aside button {
 }
 body img {
     width: 70px;
-    margin-left: 530px;
+    margin-left: 500px;
 }
 body h1 {
     color: #fedba5;
@@ -145,6 +145,53 @@ body a {
 .qr-code {
     color: #fedba5;
     margin-top: 35px;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-bottom: 210px;
 }
+.order {
+    margin-top: 100px;
+}
+.order h1 {
+    font-size: 13px;
+}
+
+
+
+
+
+  
+  /* 
+   Css Для форми замовлення
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    width: 500px;
+    margin-left: 510px;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fedba5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 20px;
+    color: #333;
+  }*/
+  
