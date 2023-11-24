@@ -49,3 +49,102 @@ body p {
     text-align: center;
     font-size: 20px;
 }
+/* Add this to your existing CSS file or create a new one if needed */
+
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 200px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.7); /* Set your desired background color and transparency */
+    z-index: 1;
+}
+
+.nav-menu {
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 120px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 60px;
+    text-align: left;
+    z-index: 2;
+}
+
+.nav-menu ul {
+    margin-top: -60px;
+    padding: 10px;
+}
+
+.nav-menu li {
+    padding: 10px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.photo-container {
+    padding-top: 70px;
+    display: flex; /* Встановлюємо flex-контейнер */
+    margin-right: 0px;
+}
+.photo-container img {
+    width: 350px;
+    margin: 10px;
+}
+.text {
+    padding-top: 0px;
+    display: flex; /* Встановлюємо flex-контейнер */
+    margin-right: 0px;
+}
+.text p {
+    margin: 0px;
+    font-size: 24px;
+}
+.price {
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+}
+.price p {
+    margin: 0px;
+    font-size: 22px;
+
+}
+.btn {
+    display: flex; /* Зробити flex-контейнер */
+    justify-content: center; /* Вирівняти кнопки по центру */
+    margin-top: 20px;
+}
+.order-button {
+    padding: 10px 20px; /* Розміри кнопок */
+    margin: 0 135px; /* Відступ між кнопками */
+    text-decoration: none;
+    color: #fedba5;
+    background-color: #000000; /* Колір кнопок */
+    border: none;
+    border-radius: 5px; /* Закруглені кути */
+    cursor: pointer;
+
+}
+body a {
+    color: #fedba5;
+
+}
+.qr-code img {
+    color: #fedba5;
+    width: 200px;
+}
+.qr-code {
+    color: #fedba5;
+    margin-top: 35px;
+    margin-left: 120px;
+    margin-bottom: 210px;
+}

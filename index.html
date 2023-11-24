@@ -1,27 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="style.css">
-    <aside>
-        <button class="burger-button">&#9776;</button>
-        <h2>EcoFishMeat</h2>
-        <body>
-            <img src="images/2023-11-20_16.48.09-removebg-preview.png" alt="Логотип">
-        </body>
-    </aside>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мій веб-сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <title>EcoFishMeat</title>
 </head>
 <body>
+    <aside>
+        <button class="burger-button" onclick="toggleMenu()">&#9776;</button>
+        <div class="menu-overlay" id="menuOverlay" onclick="closeMenu()"></div>
+    <nav class="nav-menu" id="navMenu">
+        <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Товар</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+
+        <h2>EcoFishMeat</h2>
+
+        <img src="images/2023-11-20_16.48.09-removebg-preview.png" alt="Логотип">
+
+    </aside>
+
+    <div class="menu-overlay" id="menuOverlay" onclick="closeMenu()"></div>
+    <nav class="nav-menu" id="navMenu">
+        <ul>
+            <li><a href="#section1">Головна</a></li>
+            <li><a href="#section2">Про нас</a></li>
+            <li><a href="#section3">Контакти</a></li>
+        </ul>
+    </nav>
+
+<section id="section1">
     <h1>Ласкаво просимо на "EcoFishMeat"!</h1>
     <p>Забудьте про звичайні закуски – відкрийте для себе новий вимір смаку з нашими неперевершеними м'ясними джерками.
         Ми пропонуємо вам найсмачніше джерке з натуральних інгредієнтів та за унікальними рецептами.</p>
-    <h1>Чому саме наші Джерки?</h1>    
-    <p>Відмінний смак: Наші джерки виробляються з відібраних шматочків м'яса, приправленого сумішшю солі, спецій та трав, що створює неперевершений смаковий букет.
-        Натуральність: Ми пишаємося використанням тільки найякісніших інгредієнтів без додавання штучних барвників, консервантів чи штучних добавок.
-        Різноманіття смаків: Вибирайте з нашого широкого асортименту смаків – від класичного до екзотичного. Знайдіть свій улюблений варіант!
-        Здоровий перекус: Джерки - це ідеальний перекус для тих, хто обирає здоровий спосіб життя. Завдяки високому вмісту білка та низькому вмісту вуглеводів, вони стануть відмінним супутником для вашого активного дня.</p>
+    <h1>Чому саме наші Джерки?</h1>
+    <p>Відмінний смак: Наші джерки виробляються з відібраних шматочків м'яса, приправленого сумішшю солі, спецій та
+        трав, що створює неперевершений смаковий букет.
+        Натуральність: Ми пишаємося використанням тільки найякісніших інгредієнтів без додавання штучних барвників,
+        консервантів чи штучних добавок.
+        Різноманіття смаків: Вибирайте з нашого широкого асортименту смаків – від класичного до екзотичного. Знайдіть свій
+        улюблений варіант!
+        Здоровий перекус: Джерки - це ідеальний перекус для тих, хто обирає здоровий спосіб життя. Завдяки високому вмісту
+        білка та низькому вмісту вуглеводів, вони стануть відмінним супутником для вашого активного дня.</p>
+</section>
+
+<section id="section2"> 
+    <h1>Наш асортимент джерків</h1>
+
+<div class="photo-container">
+    <img src="images/photo_2023-11-21_19.09.21-removebg-preview.png">
+    <img src="images/photo_2023-11-21_19.09.24-removebg-preview.png">
+    <img src="images/photo_2023-11-21_19.09.27-removebg-preview.png">
+    <img src="images/photo_2023-11-21_19.09.30-removebg-preview.png">
+</div>
+
+
+<div class="text">
+    <p>Джерки із яловичини</p>
+    <p>Джерки із свинини</p>
+    <p>Джерки із баранини</p>
+    <p>Джерки із курятини</p>
+</div>
+
+<div class="price">
+    <p>ціна: 100грн</p>
+    <p>ціна: 100грн</p>
+    <p>ціна: 100грн</p>
+    <p>ціна: 100грн</p>
+</div>
+
+<div class="btn">
+    <a href="oformlennya-zamovlennya.html" class="order-button">Замовити</a>
+    <a href="oformlennya-zamovlennya.html" class="order-button">Замовити</a>
+    <a href="oformlennya-zamovlennya.html" class="order-button">Замовити</a>
+    <a href="oformlennya-zamovlennya.html" class="order-button">Замовити</a>
+</div>
+</section>
+
+
+<section id="section3">
+    
+<h1>Наші контакти</h1>
+<p>Номер телефону: +380978009925-Світлана</p>
+<p>Наш instagram: <a href="https://instagram.com/efm_craft?igshid=NzZlODBkYWE4Ng">Efm_Craft</a></p>
+<div class="qr-code">
+<img src="images/qr-code.png">
+</div>
+</section>
+
+    
+    <script src="script.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 </body>
 </html>
