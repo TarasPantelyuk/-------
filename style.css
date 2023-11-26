@@ -156,7 +156,7 @@ body a {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     body {
         background-color: #222222;
         background-image: url('images/Rectangle 1.png');
@@ -199,7 +199,7 @@ body a {
         color: #fedba5;
         margin-top: 160px;
         text-align: center;
-        margin-right: 200px;
+        margin-right: 0px;
     }
     body p {
         color: #fedba5;
@@ -262,8 +262,8 @@ body a {
     .text {
         padding-top: 0px;
         display: flex; /* Встановлюємо flex-контейнер */
-        margin-right: 260px;
-        margin-top: -40px;
+        margin-right: 30px;
+        margin-top: 0px;
     }
     .text p {
         margin: 0 px;
@@ -273,7 +273,7 @@ body a {
         display: flex;
         margin: 0px;
         padding: 5px;
-        margin-right: 230px;
+        margin-right: 30px;
     }
     .price p {
         margin: 0px;
@@ -284,7 +284,7 @@ body a {
         display: flex; /* Зробити flex-контейнер */
         justify-content: center; /* Вирівняти кнопки по центру */
         margin-top: 20px;
-        margin-right: 230px;
+        margin-right: 50px;
     }
     .order-button {
         padding: 9px 15px; /* Розміри кнопок */
