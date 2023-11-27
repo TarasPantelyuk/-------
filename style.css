@@ -159,11 +159,12 @@ body a {
 @media screen and (max-width: 600px) {
     body {
         background-color: #222222;
-        background-image: url('images/Rectangle 1.png');
-        background-size: cover; /* Або інше значення, таке як 'contain' */
+        background-image: url('images/Frame 1.png');
+        background-size: cover;
         background-position: center center;
-        background-attachment: scroll; /* Якщо ви хочете фіксований фон при прокручуванні */
-        color: white;
+        background-attachment: fixed;
+        color: rgb(255, 255, 255);
+        
     }
     aside {
         display: flex;
