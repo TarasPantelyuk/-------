@@ -157,6 +157,9 @@ body a {
 
 
 @media screen and (max-width: 600px) {
+    body {
+        background-attachment: fixed;  
+    }
     aside {
         display: flex;
         position: fixed;
@@ -185,7 +188,7 @@ body a {
         align-self: flex-start;
     }
     body img {
-        width: 60px;
+        width: 50px;
         margin-left: 150px;
     }
     body h1 {
@@ -220,7 +223,7 @@ body a {
     .nav-menu {
         display: none;
         position: fixed;
-        top: 80px;
+        top: 60px;
         left: 0;
         width: 120px;
         height: 100px;
@@ -251,30 +254,39 @@ body a {
         display: flex; /* Встановлюємо flex-контейнер */
         margin-right: 0px;
     }
+    .photo-container p {
+        margin: 10px;
+        text-align: center;
+        font-size: 22px;
+    }
     .photo-container img {
         width: 320px;
         margin: 10px;
     }
     .text {
+        display: none;
         flex-direction: column;
         justify-content: center;
         padding-top: 0px;
         display: flex; /* Встановлюємо flex-контейнер */
         margin-right: 0px;
+        margin-left: 10px;
     }
     .text p {
+        display: none;
         margin: 0px;
         font-size: 24px;
+        
     }
     .price {
         flex-direction: column;
         justify-content: center;
         display: flex;
-        margin: 0px;
         padding: 5px;
     }
     .price p {
-        margin: 0px;
+        display: none;
+        margin: 0px;;
         font-size: 22px;
     
     }
@@ -284,7 +296,19 @@ body a {
         justify-content: center; /* Вирівняти кнопки по центру */
         margin-top: 20px;
     }
+    .order-buttons {
+        text-align: center;
+        padding: 10px 20px; /* Розміри кнопок */
+         margin: 0 0px; /* Відступ між кнопками */
+        text-decoration: none;
+        color: #fedba5;
+        background-color: #000000; /* Колір кнопок */
+        border: none;
+        border-radius: 5px; /* Закруглені кути */
+        cursor: pointer;
+    }
     .order-button {
+        display: none;
         padding: 10px 20px; /* Розміри кнопок */
         margin: 0 135px; /* Відступ між кнопками */
         text-decoration: none;
