@@ -171,7 +171,7 @@ body a {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%; /* Use full width for mobile */
+        width: 600px; /* Use full width for mobile */
         background-color: #000000;
         padding: 5px;
         box-sizing: border-box;
@@ -179,8 +179,9 @@ body a {
     
     aside h2 {
         color: #fedba5;
-        margin-left: 10px; /* Adjust for mobile */
+        margin-left: 90px; /* Adjust for mobile */
         width: auto; /* Adjust for mobile */
+        font-size: 15px;
     }
     
     aside button {
@@ -194,8 +195,8 @@ body a {
     }
     
     body img {
-        width: 70px;
-        margin-left: 10px; /* Adjust for mobile */
+        width: 50px;
+        margin-left: 80px; /* Adjust for mobile */
     }
     
     body h1 {
@@ -212,7 +213,7 @@ body a {
         text-align: center;
         font-size: 16px; /* Adjust for mobile */
     }
-    
+
     .menu-overlay {
         display: none;
         position: fixed;
@@ -288,6 +289,7 @@ body a {
     }
     
     .qr-code {
+        display: none;
         color: #fedba5;
         margin-top: 20px;
         margin-left: 5%;
@@ -301,42 +303,9 @@ body a {
     .order h1 {
         font-size: 16px; /* Adjust for mobile */
     }
-    
+} 
     /* Add media query for screens smaller than 768px (adjust the breakpoint as needed) */
-    @media screen and (max-width: 768px) {
-        aside {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        aside h2 {
-            margin-left: 0;
-            margin-top: 10px;
-        }
-    
-        aside button {
-            margin-left: 0;
-            margin-top: 10px;
-        }
-    
-        body h1 {
-            margin-top: 30px;
-        }
-    
-        body p {
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-    
-        .order-button {
-            margin: 0;
-        }
-    
-        .order {
-            margin-top: 20px;
-        }
-    }
-}    
+   
 
 
 
