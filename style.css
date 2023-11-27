@@ -156,157 +156,177 @@ body a {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     body {
         background-color: #222222;
         background-image: url('images/Rectangle 1.png');
-        background-size: cover;
+        background-size: auto; /* Або інше значення, таке як 'contain' */
         background-position: center center;
-        background-attachment: fixed;
+        background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
         color: white;
     }
     
     aside {
         display: flex;
         position: fixed;
-        top: 0;
-        left: 0;
-        width: 600px; /* Use full width for mobile */
+        top: 0px;
+        left: 0px;
+        width: 600px;
         background-color: #000000;
         padding: 5px;
         box-sizing: border-box;
+        /*justify-content: center;*/
     }
-    
     aside h2 {
         color: #fedba5;
-        margin-left: 90px; /* Adjust for mobile */
-        width: auto; /* Adjust for mobile */
+        margin-top: 30px;
+        margin-left: 70px;
+        width: 20px;
         font-size: 15px;
     }
-    
     aside button {
         background-color: #000000;
         color: #fedba5;
         border: none;
-        font-size: 20px; /* Adjust for mobile */
+        font-size: 30px;
         margin-left: 10px;
         margin-top: 15px;
         align-self: flex-start;
     }
-    
     body img {
-        width: 50px;
-        margin-left: 80px; /* Adjust for mobile */
+        width: 60px;
+        margin-left: 130px;
     }
-    
     body h1 {
         color: #fedba5;
-        margin-top: 60px; /* Adjust for mobile */
+        margin-top: 160px;
+        margin-left: 0px;
         text-align: center;
+        width: 350px;
     }
-    
     body p {
         color: #fedba5;
-        width: 90%; /* Adjust for mobile */
-        margin-top: 20px; /* Adjust for mobile */
-        margin-left: 5%; /* Adjust for mobile */
+        width: 900px;
+        margin-top: 50px;
+        margin-left: 25px;
         text-align: center;
-        font-size: 16px; /* Adjust for mobile */
+        font-size: 18px;
+        width: 300px;
     }
-
+    /* Add this to your existing CSS file or create a new one if needed */
+    
     .menu-overlay {
         display: none;
         position: fixed;
-        top: 0;
+        top: 0px;
         left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
+        width: 200px;
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.7); /* Set your desired background color and transparency */
         z-index: 1;
     }
     
-    /* Add your existing mobile styles for nav-menu here */
+    .nav-menu {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 120px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-top: 60px;
+        text-align: left;
+        z-index: 2;
+    }
+    
+    .nav-menu ul {
+        margin-top: -60px;
+        padding: 10px;
+    }
+    
+    .nav-menu li {
+        padding: 10px;
+    }
+    
+    .nav-menu a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px; /* Adjust the font size as needed */
+    }
     
     .photo-container {
-        padding-top: 20px; /* Adjust for mobile */
-        display: flex;
-        flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
-        justify-content: center;
+        flex-direction: column;
+        padding-top: 70px;
+        display: flex; /* Встановлюємо flex-контейнер */
+        margin-right: 0px;
     }
-    
     .photo-container img {
-        width: 100%; /* Make images take full width on smaller screens */
+        width: 320px;
         margin: 10px;
     }
-    
     .text {
-        padding-top: 0;
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+        padding-top: 0px;
+        display: flex; /* Встановлюємо flex-контейнер */
+        margin-right: 0px;
     }
-    
     .text p {
-        margin: 10px;
-        font-size: 18px; /* Adjust for mobile */
+        margin: 0px;
+        font-size: 24px;
     }
-    
     .price {
-        display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+        display: flex;
+        margin: 0px;
+        padding: 5px;
     }
-    
     .price p {
-        margin: 10px;
-        font-size: 16px; /* Adjust for mobile */
-    }
+        margin: 0px;
+        font-size: 22px;
     
+    }
     .btn {
-        display: flex;
-        justify-content: center;
+        flex-direction: column;
+        display: flex; /* Зробити flex-контейнер */
+        justify-content: center; /* Вирівняти кнопки по центру */
         margin-top: 20px;
     }
-    
     .order-button {
-        padding: 10px 20px;
-        margin: 0 10px;
+        padding: 10px 20px; /* Розміри кнопок */
+        margin: 0 135px; /* Відступ між кнопками */
         text-decoration: none;
         color: #fedba5;
-        background-color: #000000;
+        background-color: #000000; /* Колір кнопок */
         border: none;
-        border-radius: 5px;
+        border-radius: 5px; /* Закруглені кути */
         cursor: pointer;
-    }
     
+    }
     body a {
         color: #fedba5;
-    }
     
+    }
     .qr-code img {
         color: #fedba5;
-        width: 100%;
+        width: 200px;
     }
-    
     .qr-code {
         display: none;
         color: #fedba5;
-        margin-top: 20px;
-        margin-left: 5%;
-        margin-bottom: 20px;
+        margin-top: 35px;
+        margin-left: 150px;
+        margin-bottom: 210px;
     }
-    
     .order {
-        margin-top: 40px; /* Adjust for mobile */
+        margin-top: 100px;
     }
-    
     .order h1 {
-        font-size: 16px; /* Adjust for mobile */
+        font-size: 13px;
     }
-} 
-    /* Add media query for screens smaller than 768px (adjust the breakpoint as needed) */
-   
 
+}
 
 
 
