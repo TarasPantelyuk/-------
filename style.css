@@ -162,7 +162,7 @@ body a {
         background-image: url('images/Rectangle 1.png');
         background-size: cover; /* Або інше значення, таке як 'contain' */
         background-position: center center;
-        background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
+        background-attachment: scroll; /* Якщо ви хочете фіксований фон при прокручуванні */
         color: white;
     }
     aside {
