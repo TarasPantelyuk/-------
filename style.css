@@ -158,6 +158,7 @@ body a {
 
 @media screen and (max-width: 600px) {
     body {
+        width: 600px;
         background-attachment: fixed;
         background-size: cover;
     }
@@ -202,7 +203,7 @@ body a {
     body p {
         color: #fedba5;
         width: 900px;
-        margin-top: 50px;
+        margin-top: 0px;
         margin-left: 25px;
         text-align: center;
         font-size: 18px;
@@ -259,6 +260,7 @@ body a {
         margin: 10px;
         text-align: center;
         font-size: 22px;
+        margin-left: 20px;
     }
     .photo-container img {
         width: 320px;
@@ -298,9 +300,10 @@ body a {
         margin-top: 20px;
     }
     .order-buttons {
+        width: 65px;
         text-align: center;
         padding: 10px 20px; /* Розміри кнопок */
-         margin: 0 0px; /* Відступ між кнопками */
+        margin: 0 120px; /* Відступ між кнопками */
         text-decoration: none;
         color: #fedba5;
         background-color: #000000; /* Колір кнопок */
