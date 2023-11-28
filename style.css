@@ -160,7 +160,7 @@ body a {
     body {
         background-color: #222222;
         background-image: url('images/Frame 1.png');
-        background-size: contain; /* Або інше значення, таке як 'contain' */
+        background-size: cover; /* Або інше значення, таке як 'contain' */
         background-position: center center;  
         color: white;
     }
