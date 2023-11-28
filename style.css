@@ -159,7 +159,7 @@ body a {
 @media screen and (max-width: 600px) {
     body {
         background-color: #222222;
-        background-image: url('images/Frame 1.png');
+        background-image: url('images/Rectangle 1.png');
         background-size: 350px 600px;  /*Або інше значення, таке як 'contain' */
         background-attachment: fixed;
         background-position: center center;  
