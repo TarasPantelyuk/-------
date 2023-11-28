@@ -160,7 +160,7 @@ body a {
     body {
         background-color: #222222;
         background-image: url('images/Rectangle 1.png');
-        background-size: 600px; /* Або інше значення, таке як 'contain' */
+        background-size: 600px 600px; /* Або інше значення, таке як 'contain' */
         background-attachment: fixed;
         background-position: center center;  
         color: white;
