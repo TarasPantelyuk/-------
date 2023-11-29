@@ -99,6 +99,9 @@ body p {
     width: 350px;
     margin: 10px;
 }
+.photo-container p {
+    display: none;
+}
 .text {
     padding-top: 0px;
     display: flex; /* Встановлюємо flex-контейнер */
@@ -122,6 +125,9 @@ body p {
     display: flex; /* Зробити flex-контейнер */
     justify-content: center; /* Вирівняти кнопки по центру */
     margin-top: 20px;
+}
+.order-buttons{
+    display: none;
 }
 .order-button {
     padding: 10px 20px; /* Розміри кнопок */
@@ -157,16 +163,6 @@ body a {
 
 
 @media screen and (max-width: 600px) {
-    body {
-        background-color: #222222;
-        background-image: url('images/Rectangle 1.png');
-        background-size: 600px;
-        background-position: center center; /* Центр по горизонталі та вертикалі */
-        background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
-        color: white;
-        background-repeat: no-repeat;
-   }
-
     aside {
         display: flex;
         position: fixed;
@@ -262,6 +258,7 @@ body a {
         margin-right: 0px;
     }
     .photo-container p {
+        display: block;
         margin: 10px;
         text-align: center;
         font-size: 22px;
@@ -305,6 +302,7 @@ body a {
         margin-top: 20px;
     }
     .order-buttons {
+        display: block;
         width: 65px;
         text-align: center;
         padding: 10px 20px; /* Розміри кнопок */
@@ -351,6 +349,9 @@ body a {
     }
 
 }
+
+
+
 
 
 
