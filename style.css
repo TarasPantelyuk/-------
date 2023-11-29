@@ -166,9 +166,9 @@ body a {
     body {
         background-color: #222222;
         background-image: url('images/Rectangle 1-2.png');
-        background-size: 600px; /* Або інше значення, таке як 'contain' */
+        background-size: contain; /* Або інше значення, таке як 'contain' */
         background-position: center center;
-        background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
+        background-attachment: scroll; /* Якщо ви хочете фіксований фон при прокручуванні */
         color: white;
         background-repeat: no-repeat;
     }
