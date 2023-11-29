@@ -161,12 +161,10 @@ body a {
             background-color: #222222;
             background-image: url('images/Rectangle 1-2.png');
             background-size: contain;
-            background-position: 50% 50%; /* Центр по горизонталі та вертикалі */
-            background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
+            background-position: center center; /* Центр по горизонталі та вертикалі */
+            background-attachment: scroll; /* Якщо ви хочете фіксований фон при прокручуванні */
             color: white;
             background-repeat: no-repeat;
-            object-fit: contain;
-            object-position: 50% 50%;
    }
 
     aside {
