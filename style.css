@@ -158,8 +158,12 @@ body a {
 
 @media screen and (max-width: 600px) {
     body {
-        background-size: 450px  600px;
-        background-attachment: fixed;
+        background-color: #222222;
+        background-image: url('images/Rectangle 1-2.png');
+        background-size: cover; /* Або інше значення, таке як 'contain' */
+        background-position: center center;
+        background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
+        color: white;
     }
     aside {
         display: flex;
