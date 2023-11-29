@@ -160,7 +160,7 @@ body a {
     body {
         background-color: #222222;
         background-image: url('images/Rectangle 1.png');
-        background-size: 100vh;
+        background-size: 600px;
         background-position: center center; /* Центр по горизонталі та вертикалі */
         background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
         color: white;
