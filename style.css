@@ -158,16 +158,16 @@ body a {
 
 @media screen and (max-width: 600px) {
     body {
-        background-color: #222222;
-        background-image: url('images/Rectangle 1.png');
-        background-size: cover;
-        background-position: 50% 50%; /* Центр по горизонталі та вертикалі */
-        background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
-        color: white;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        object-position: 50% 50%;
-    }
+            background-color: #222222;
+            background-image: url('images/Rectangle 1-2.png');
+            background-size: contain;
+            background-position: 50% 50%; /* Центр по горизонталі та вертикалі */
+            background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
+            color: white;
+            background-repeat: no-repeat;
+            object-fit: contain;
+            object-position: 50% 50%;
+   }
 
     aside {
         display: flex;
