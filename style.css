@@ -165,7 +165,6 @@ body a {
         background-attachment: fixed; /* Якщо ви хочете фіксований фон при прокручуванні */
         color: white;
         background-repeat: no-repeat;
-        max-height: 500px;
    }
 
     aside {
