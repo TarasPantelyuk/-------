@@ -170,7 +170,7 @@ body a {
         margin: 0px;
         margin-top: 0px;
         padding: 0px;
-        height: 400px;
+        height: 370px;
     }
 
     aside {
@@ -220,7 +220,6 @@ body a {
         text-align: center;
         font-size: 18px;
         width: 300px;
-        margin-bottom: 20px;
     }
     /* Add this to your existing CSS file or create a new one if needed */
     
@@ -343,8 +342,6 @@ body a {
     }
     body a {
         color: #fedba5;
-        margin-bottom: 20px;
-    
     }
     .qr-code img {
         color: #fedba5;
