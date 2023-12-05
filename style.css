@@ -167,6 +167,9 @@ body a {
         background-image: url('images/Rectangle 1-2.png');
         background-size: contain;
         background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
     }
 
     aside {
