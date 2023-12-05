@@ -168,6 +168,9 @@ body a {
         background-size: contain;
         background-attachment: scroll;
         height: 350px;
+        margin: 0px;
+        margin-top: 0px;
+        padding: 0px;
     }
 
     aside {
