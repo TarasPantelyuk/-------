@@ -273,7 +273,7 @@ body a {
     .photo-container img {
         width: 320px;
         margin: 10px;
-        margin-left: 5px;
+        margin-left: 20px;
     }
     .text {
         display: none;
