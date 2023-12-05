@@ -167,6 +167,7 @@ body a {
         background-image: url('images/Rectangle 1-2.png');
         background-size: contain;
         background-attachment: scroll;
+        height: 100vh;
     }
 
     aside {
