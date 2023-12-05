@@ -262,18 +262,18 @@ body a {
         padding-top: 70px;
         display: flex; /* Встановлюємо flex-контейнер */
         margin-right: 0px;
+        margin-left: 20px;
     }
     .photo-container p {
         display: block;
         margin: 10px;
         text-align: center;
         font-size: 22px;
-        margin-left: 25px;
+        margin-left: 10px;
     }
     .photo-container img {
         width: 320px;
         margin: 10px;
-        margin-left: 20px;
     }
     .text {
         display: none;
