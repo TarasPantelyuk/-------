@@ -263,14 +263,15 @@ body a {
         padding-top: 70px;
         display: flex; /* Встановлюємо flex-контейнер */
         margin-right: 0px;
-        margin-left: 15px;
+        margin-left: 0px;
+        text-align: center;
     }
     .photo-container p {
         display: block;
         margin: 10px;
         text-align: center;
         font-size: 22px;
-        margin-left: 15px;
+        margin-left: 22px;
     }
     .photo-container img {
         width: 320px;
