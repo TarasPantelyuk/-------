@@ -164,7 +164,9 @@ body a {
 
 @media screen and (max-width: 600px) {
     body {
-        background-size: cover;
+        width: 600px;
+        height: 600px;
+        background-size: contain;
         background-attachment: scroll;
     }
 
