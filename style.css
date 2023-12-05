@@ -165,11 +165,10 @@ body a {
 @media screen and (max-width: 600px) {
     body {
         background-image: url('images/Rectangle 1-2.png');
-        background-size: cover;
+        background-size: 300px 300px;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        width: 300px;
-        height: 300px;
+        
     }
 
     aside {
